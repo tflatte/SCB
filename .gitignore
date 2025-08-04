@@ -1,1 +1,8 @@
 /Data/fraud_mock.csv
+.idea
+.DS_Store
+/fraud_detection/services/migrations/*
+
+# Ignore Django migrations (if you want to regenerate migrations manually)
+/fraud_detection/services/migrations
+/.idea
