@@ -6,3 +6,4 @@
 # Ignore Django migrations (if you want to regenerate migrations manually)
 /fraud_detection/services/migrations
 /.idea
+*.pyc
