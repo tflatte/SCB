@@ -87,3 +87,6 @@ and root directory of the project, /SCB/fraud_model.joblib
 ### 7. Path reference
 
 on EDA.ipynb, and fraud_detection/services/apis/transaction.py, you need to change the path of the model and data to be the path where you downloaded the model and data.:
+
+
+The step for running each end point, and sample request, response is described in the report
