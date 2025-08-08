@@ -16,13 +16,10 @@ class Transaction(models.Model):
     is_fraud = models.BooleanField(null=True, blank=True)
     is_flagged_fraud = models.BooleanField(null=True, blank=True)
 
-    # Model prediction result
     prediction = models.BooleanField()
 
-    # Store full JSON request
     raw_features = models.JSONField()
 
-    # Auditor review: None = not reviewed yet
     status = models.BooleanField(null=True, blank=True)
     notes = models.TextField(blank=True, null=True)
 

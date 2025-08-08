@@ -7,3 +7,6 @@
 /fraud_detection/services/migrations
 /.idea
 *.pyc
+/venv
+/AutogluonModels
+*.joblib
